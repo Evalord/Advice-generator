@@ -1,0 +1,116 @@
+@import url('./Manrope-VariableFont_wght.ttf');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-family: ('./Manrope-VariableFont_wght.ttf', sans-serif);
+    color: hsl(193, 38%, 86%);
+    color:  hsl(150, 100%, 66%);
+  
+    color: hsl(217, 19%, 38%);
+    color: hsl(217, 19%, 24%);
+    color: hsl(218, 23%, 16%);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  body {
+    font-family: ( './Manrope-VariableFont_wght.ttf', sans-serif);
+    line-height: 1.3;
+    background-color:  hsl(218, 23%, 16%);;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .advice-container {
+    background-color:  hsl(217, 19%, 24%);
+    width: 450px;
+    border-radius: 0.4rem;
+    padding: 2.5rem 0;
+  }
+  
+  .advice-title {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  
+  .advice-text {
+    color: hsl(193, 38%, 86%);
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+
+
+.pattern-divider {
+    background-image: url(./images/pattern-divider-mobile.svg);
+    width: 375px;
+    aspect-ratio: 1/0.1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin: 0 auto;
+    position: relative;
+    top: 2rem;
+  }
+  
+  @media (min-width: 1440px) {
+    .pattern-divider {
+      background-image: url(./images/pattern-divider-desktop.svg);
+    }
+  }
+
+  .errorMessage {
+    color: goldenrod;
+    font-family: './Manrope-VariableFont_wght.ttf' ;
+    font-weight: 200;
+    margin-top: 30px;
+  }
+
+  .btn img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-color: hsl(150, 100%, 66%);
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    top: 4rem;
+    transition: box-shadow 0.2s ease-in;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 30px hsl(150, 100%, 66%);
+    filter: blur(-5px);
+   }
+  
+   
